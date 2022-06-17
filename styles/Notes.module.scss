@@ -1,0 +1,38 @@
+.containerNotes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.cardNote {
+    
+    border-radius: 15px !important;
+    box-sizing: border-box;
+    padding: 10px 15px !important;
+}
+
+.cardContent {
+    cursor: pointer;
+}
+
+.cardDateNote {
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 14px;
+    color: rgb(116, 116, 116);
+}
+
+.cardTitleNote {
+    // margin-top: 15px !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 28px !important;
+    font-weight: 600 !important;
+
+}
+
+.cardTextNote {
+    margin-top: 10px !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}

@@ -1,0 +1,68 @@
+.decriptionPaper {
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 15px !important;
+
+    margin-bottom: 20px;
+}
+
+.description {
+    p {
+        font-family: 'Ubuntu', sans-serif !important;
+        font-weight: 400 !important;
+        font-size: 18px;
+    }
+}
+
+.blockHome {
+    background-color: inherit !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.cardHome {
+    padding: 0 !important;
+    border-radius: 15px !important;
+    // background-color: #333333 !important;
+}
+
+.cardImg {
+    cursor: pointer !important;
+    border-radius: 15px 15px 0px 0px !important;
+    box-shadow: 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%) !important;
+    transition: all 0.2s ease 0s;
+    &:hover {
+        transform: scale(1.1) translateY(-4.5%);
+    }
+}
+
+.cardContent {
+    margin-top: 5px;
+    padding: 15px 30px !important;
+}
+
+.cardDate {
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 14px;
+    color: rgb(116, 116, 116);
+}
+
+.cardTitle {
+    margin-top: 15px !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 28px !important;
+    font-weight: 600 !important;
+}
+
+.cardText {
+    margin-top: 10px !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.cardButton {
+
+}
